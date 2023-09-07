@@ -6,10 +6,6 @@ export default function MovieCard({ title, year, cast, genres, thumbnail, thumbn
 
     <>
 
-    <div className="filter">
-      <input type="text" placeholder='filter'/>
-    </div>
-
     <div className="all-card">
 
       <div className="thumbnail">
