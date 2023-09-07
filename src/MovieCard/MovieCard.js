@@ -1,10 +1,11 @@
+import './moviecard.css'
+
 export default function MovieCard({ title, year, cast, genres, thumbnail, thumbnail_width, thumbnail_height }) {
 
   return (
-    <>
-
+    <div className="all-card">
       <div className="thumbnail">
-        <img src={thumbnail} alt={title} style={{ height: { thumbnail_height }, width: { thumbnail_width } }} />
+        <img src={thumbnail} alt={title} style={{ width: thumbnail_width, height: thumbnail_height }} />
       </div>
 
       <div className="description">
@@ -16,7 +17,7 @@ export default function MovieCard({ title, year, cast, genres, thumbnail, thumbn
         </div>
       </div>
 
-    </>
+    </div>
   )
 
 }

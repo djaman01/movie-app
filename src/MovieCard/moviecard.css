@@ -1,0 +1,14 @@
+.all-card {
+  border: 2px solid grey;
+  
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+.description {
+  margin-top: 50px;
+  text-align: center;
+}

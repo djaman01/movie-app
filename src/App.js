@@ -1,10 +1,12 @@
-import MovieList from './MovieList'
+import MovieList from './MovieList/MovieList'
 import './App.css';
 
 function App() {
 
   return (
-    <MovieList />
+    <div className="all-page">
+      <MovieList />
+    </div>
   )
 
 }
