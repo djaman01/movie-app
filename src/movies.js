@@ -3,11 +3,11 @@ export const movies = [
     "title": "The Grudge",
     "year": 2020,
     "cast": [
-      "Andrea Riseborough",
-      "Demián Bichir",
-      "John Cho",
-      "Betty Gilpin",
-      "Lin Shaye",
+      "Andrea Riseborough, ",
+      "Demián Bichir, ",
+      "John Cho, ",
+      "Betty Gilpin, ",
+      "Lin Shaye, ",
       "Jacki Weaver"
     ],
     "genres": [
@@ -23,11 +23,11 @@ export const movies = [
     "title": "Underwater",
     "year": 2020,
     "cast": [
-      "Kristen Stewart",
-      "Vincent Cassel",
-      "Jessica Henwick",
-      "John Gallagher Jr.",
-      "Mamoudou Athie",
+      "Kristen Stewart, ",
+      "Vincent Cassel, ",
+      "Jessica Henwick, ",
+      "John Gallagher Jr., ",
+      "Mamoudou Athie, ",
       "T.J. Miller"
     ],
     "genres": [
@@ -44,10 +44,10 @@ export const movies = [
     "title": "Like a Boss",
     "year": 2020,
     "cast": [
-      "Tiffany Haddish",
-      "Rose Byrne",
-      "Salma Hayek",
-      "Jennifer Coolidge",
+      "Tiffany Haddish, ",
+      "Rose Byrne, ",
+      "Salma Hayek, ",
+      "Jennifer Coolidge, ",
       "Billy Porter"
     ],
     "genres": [
@@ -62,9 +62,9 @@ export const movies = [
     "title": "Three Christs",
     "year": 2020,
     "cast": [
-      "Richard Gere",
-      "Peter Dinklage",
-      "Walton Goggins",
+      "Richard Gere, ",
+      "Peter Dinklage, ",
+      "Walton Goggins, ",
       "Bradley Whitford"
     ],
     "genres": [
@@ -79,10 +79,10 @@ export const movies = [
     "title": "Inherit the Viper",
     "year": 2020,
     "cast": [
-      "Josh Hartnett",
-      "Margarita Levieva",
-      "Chandler Riggs",
-      "Bruce Dern",
+      "Josh Hartnett, ",
+      "Margarita Levieva, ",
+      "Chandler Riggs, ",
+      "Bruce Dern, ",
       "Owen Teague"
     ],
     "genres": [
@@ -98,9 +98,9 @@ export const movies = [
     "title": "The Sonata",
     "year": 2020,
     "cast": [
-      "Freya Tingley",
-      "Simon Abkarian",
-      "Rutger Hauer",
+      "Freya Tingley, ",
+      "Simon Abkarian, ",
+      "Rutger Hauer, ",
       "James Faulkner"
     ],
     "genres": [
@@ -116,8 +116,8 @@ export const movies = [
     "title": "The Murder of Nicole Brown Simpson",
     "year": 2020,
     "cast": [
-      "Mena Suvari",
-      "Nick Stahl",
+      "Mena Suvari, ",
+      "Nick Stahl, ",
       "Taryn Manning"
     ],
     "genres": [
@@ -133,14 +133,14 @@ export const movies = [
     "title": "Bad Boys for Life",
     "year": 2020,
     "cast": [
-      "Will Smith",
-      "Martin Lawrence",
-      "Vanessa Hudgens",
-      "Alexander Ludwig",
-      "Charles Melton",
-      "Paola Núñez",
-      "Kate del Castillo",
-      "Nicky Jam",
+      "Will Smith, ",
+      "Martin Lawrence, ",
+      "Vanessa Hudgens, ",
+      "Alexander Ludwig, ",
+      "Charles Melton, ",
+      "Paola Núñez, ",
+      "Kate del Castillo, ",
+      "Nicky Jam, ",
       "Joe Pantoliano"
     ],
     "genres": [
@@ -156,18 +156,18 @@ export const movies = [
     "title": "Dolittle",
     "year": 2020,
     "cast": [
-      "Robert Downey Jr.",
-      "Antonio Banderas",
-      "Michael Sheen",
-      "Emma Thompson",
-      "Rami Malek",
-      "John Cena",
-      "Kumail Nanjiani",
-      "Octavia Spencer",
-      "Tom Holland",
-      "Craig Robinson",
-      "Ralph Fiennes",
-      "Selena Gomez",
+      "Robert Downey Jr., ",
+      "Antonio Banderas, ",
+      "Michael Sheen, ",
+      "Emma Thompson, ",
+      "Rami Malek, ",
+      "John Cena, ",
+      "Kumail Nanjiani, ",
+      "Octavia Spencer, ",
+      "Tom Holland, ",
+      "Craig Robinson, ",
+      "Ralph Fiennes, ",
+      "Selena Gomez, ",
       "Marion Cotillard"
     ],
     "genres": [
@@ -183,11 +183,11 @@ export const movies = [
     "title": "A Fall from Grace",
     "year": 2020,
     "cast": [
-      "Crystal R. Fox",
-      "Phylicia Rashad",
-      "Bresha Webb",
-      "Mehcad Brooks",
-      "Cicely Tyson",
+      "Crystal R. Fox, ",
+      "Phylicia Rashad, ",
+      "Bresha Webb, ",
+      "Mehcad Brooks, ",
+      "Cicely Tyson, ",
       "Tyler Perry"
     ],
     "genres": [
@@ -202,13 +202,13 @@ export const movies = [
     "title": "The Gentlemen",
     "year": 2020,
     "cast": [
-      "Matthew McConaughey",
-      "Charlie Hunnam",
-      "Henry Golding",
-      "Michelle Dockery",
-      "Jeremy Strong",
-      "Eddie Marsan",
-      "Colin Farrell",
+      "Matthew McConaughey, ",
+      "Charlie Hunnam, ",
+      "Henry Golding, ",
+      "Michelle Dockery, ",
+      "Jeremy Strong, ",
+      "Eddie Marsan, ",
+      "Colin Farrell, ",
       "Hugh Grant"
     ],
     "genres": [
@@ -224,9 +224,9 @@ export const movies = [
     "title": "The Turning",
     "year": 2020,
     "cast": [
-      "Mackenzie Davis",
-      "Finn Wolfhard",
-      "Brooklynn Prince",
+      "Mackenzie Davis, ",
+      "Finn Wolfhard, ",
+      "Brooklynn Prince, ",
       "Joely Richardson"
     ],
     "genres": [
@@ -242,17 +242,17 @@ export const movies = [
     "title": "The Last Full Measure",
     "year": 2020,
     "cast": [
-      "Sebastian Stan",
-      "Christopher Plummer",
-      "William Hurt",
-      "Ed Harris",
-      "Samuel L. Jackson",
-      "Peter Fonda",
-      "LisaGay Hamilton",
-      "Jeremy Irvine",
-      "Diane Ladd",
-      "Amy Madigan",
-      "John Savage",
+      "Sebastian Stan, ",
+      "Christopher Plummer, ",
+      "William Hurt, ",
+      "Ed Harris, ",
+      "Samuel L. Jackson, ",
+      "Peter Fonda, ",
+      "LisaGay Hamilton, ",
+      "Jeremy Irvine, ",
+      "Diane Ladd, ",
+      "Amy Madigan, ",
+      "John Savage, ",
       "Bradley Whitford"
     ],
     "genres": [
@@ -268,11 +268,11 @@ export const movies = [
     "title": "John Henry",
     "year": 2020,
     "cast": [
-      "Terry Crews",
-      "Ludacris",
-      "Jamila Velazquez",
-      "Ken Foree",
-      "Tyler Alvarez",
+      "Terry Crews, ",
+      "Ludacris, ",
+      "Jamila Velazquez, ",
+      "Ken Foree, ",
+      "Tyler Alvarez, ",
       "Joseph Julian Soria"
     ],
     "genres": [
