@@ -4,6 +4,12 @@ export default function MovieCard({ title, year, cast, genres, thumbnail, thumbn
 
   return (
 
+    <>
+
+    <div className="filter">
+      <input type="text" placeholder='filter'/>
+    </div>
+
     <div className="all-card">
 
       <div className="thumbnail">
@@ -19,7 +25,13 @@ export default function MovieCard({ title, year, cast, genres, thumbnail, thumbn
         </div>
       </div>
 
+      <div className='Adding'>
+        <button> Add </button>
+      </div>
+
     </div>
+  
+    </>
 
 
   )
