@@ -40,7 +40,7 @@ export default function Filter() {
   //3)Sous le input ajouter {filteredMovies} pour faire apparaitre les affiches des movies filtré après avoir écris dans l'input
 
   return (
-    <>
+    <div className='body'>
       {/* Comme on veut donner à l'input une value qui change, on va utiliser le hook useState */}
       {/* on donne à l'input la valeur du state + quand on change l'input, on change la valeur */}
       {/* on peut mettre onChange directement dans l'input avec la l'event handler filtered movie, grace à JSX */}
@@ -49,6 +49,6 @@ export default function Filter() {
         {filteredMovies}
       </div>
 
-    </>
+    </div>
   );
 }

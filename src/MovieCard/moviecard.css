@@ -1,18 +1,43 @@
 .all-card {
   border: 2px solid grey;
-  height: 900px;
+  height: 800px;
   width: 250px;
-  
+  margin-bottom: 10px;  
 }
 
 h1 {
   font-size: 30px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
   font-size: 20px;
 }
 
+.subdiv {
+  height: 120px;
+  text-align: center;
+}
+
+.genres {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h3 {
+  font-size: 16px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* display:block; obligé pour utiliser cette margin: 20px auto; */
 img {
   display: block;
   margin: 20px auto;
@@ -21,4 +46,9 @@ img {
 .description {
   margin-top: 50px;
   text-align: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
 }

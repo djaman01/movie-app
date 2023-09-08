@@ -1,11 +1,17 @@
 .grid-filter {
   display: grid;
-  grid-template-columns: 350px 350px 350px 350px;
-  gap: 50px 40px;
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 50px 50px;
+  justify-content: center;
   overflow: hidden;
 }
 
+.body {
+  background-image: linear-gradient(22.5deg, rgba(242,10,10, 0.02) 0%, rgba(242,10,10, 0.02) 29%,rgba(47, 47, 47, 0.02) 29%, rgba(47, 47, 47, 0.02) 37%,rgba(252,9,9, 0.02) 37%, rgba(252,9,9, 0.02) 55%,rgba(182, 182, 182, 0.02) 55%, rgba(182, 182, 182, 0.02) 69%,rgba(248,9,9, 0.02) 69%, rgba(248,9,9, 0.02) 71%,rgba(246,12,12, 0.02) 71%, rgba(246,12,12, 0.02) 100%),linear-gradient(67.5deg, rgba(117, 117, 117, 0.02) 0%, rgba(117, 117, 117, 0.02) 14%,rgba(199, 199, 199, 0.02) 14%, rgba(199, 199, 199, 0.02) 40%,rgba(33, 33, 33, 0.02) 40%, rgba(33, 33, 33, 0.02) 48%,rgba(135, 135, 135, 0.02) 48%, rgba(135, 135, 135, 0.02) 60%,rgba(148, 148, 148, 0.02) 60%, rgba(148, 148, 148, 0.02) 95%,rgba(53, 53, 53, 0.02) 95%, rgba(53, 53, 53, 0.02) 100%),linear-gradient(135deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 6%,rgba(251, 251, 251, 0.02) 6%, rgba(251, 251, 251, 0.02) 18%,rgba(2, 2, 2, 0.02) 18%, rgba(2, 2, 2, 0.02) 27%,rgba(253, 253, 253, 0.02) 27%, rgba(253, 253, 253, 0.02) 49%,rgba(128, 128, 128, 0.02) 49%, rgba(128, 128, 128, 0.02) 76%,rgba(150, 150, 150, 0.02) 76%, rgba(150, 150, 150, 0.02) 100%),linear-gradient(90deg, #ffffff,#ffffff);
+}
+
 input {
+  margin-left: 182px;
   height: 20px;
   margin-bottom: 40px;
 }
