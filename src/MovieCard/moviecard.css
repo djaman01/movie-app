@@ -1,6 +1,16 @@
 .all-card {
   border: 2px solid grey;
+  height: 900px;
+  width: 250px;
   
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 img {

@@ -2,4 +2,10 @@
   display: grid;
   grid-template-columns: 350px 350px 350px 350px;
   gap: 50px 40px;
+  overflow: hidden;
+}
+
+input {
+  height: 20px;
+  margin-bottom: 40px;
 }

@@ -15,8 +15,8 @@ export const movies = [
       "Supernatural"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/The_Grudge_2020_Poster.jpeg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -36,8 +36,8 @@ export const movies = [
       "Science Fiction"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4a/Underwater_poster.jpeg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -54,8 +54,8 @@ export const movies = [
       "Comedy"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9a/LikeaBossPoster.jpg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -71,8 +71,8 @@ export const movies = [
       "Drama"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a1/Three_Christs_poster.jpg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -90,8 +90,8 @@ export const movies = [
       "Drama"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Inherit_the_Viper_%282019%29_Film_Poster.jpg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -108,8 +108,8 @@ export const movies = [
       "Thriller"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/13/The_Sonata_%282018%29_Film_Poster.jpg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -125,8 +125,8 @@ export const movies = [
       "Horror"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ed/The_Murder_of_Nicole_Brown_Simpson_poster.jpg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -148,8 +148,8 @@ export const movies = [
       "Comedy"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/90/Bad_Boys_for_Life_poster.jpg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -175,8 +175,8 @@ export const movies = [
       "Fantasy"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1f/Dolittle_%282020_film_poster%29.png",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -194,8 +194,8 @@ export const movies = [
       "Thriller"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4e/AFallFromGrace.png",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -216,8 +216,8 @@ export const movies = [
       "Comedy"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/06/The_Gentlemen_poster.jpg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -234,8 +234,8 @@ export const movies = [
       "Supernatural"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Turning_poster_2020.jpg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -260,8 +260,8 @@ export const movies = [
       "War"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9d/The_Last_Full_Measure_2019_poster.jpg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 
   {
@@ -280,7 +280,7 @@ export const movies = [
       "Thriller"
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b8/JohnHenryPoster.jpeg",
-    "thumbnail_width": 220,
-    "thumbnail_height": 326
+    "thumbnail_width": 150,
+    "thumbnail_height": 250
   },
 ]
