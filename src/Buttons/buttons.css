@@ -1,0 +1,8 @@
+.buttons-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.added-notice {
+  margin-top: 20px;
+}
