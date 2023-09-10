@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { movies } from '../movies';
 import MovieCard from '../MovieCard/MovieCard';
 import './filter.css';
@@ -21,6 +21,11 @@ export default function Filter() {
   //.filterData store uen array avec tous les objets de l'array movie. MAIS grace à .filter():
   //Quand on ajoute un text à l'input ca ne gardera que les objets that have a title with the same values as the input 
 
+  //J'utilise le Hook useEffect pour donner un nom à ma page dès le 1er rendering. 
+  //Ceci est du au fait que j'ai mis [] en tant que 2eme parametre
+  //Si je n'avais rien mis, dès qu'il y aurait un state change, le nom de la page va re-render
+  //Et si je met le nom d'un ou plusieurs state, le nom de la page changerait dès qu'il y aurait un update de ces states
+  useEffect(()=> {document.title = "Jay Movie App"}, [])
 
   //Le but maintenant est de faire apparaitre ces results:
   //Pour cela: on map sur tous les elements de l'array stored dans .filterData(), comme on a l'habitude de faire
