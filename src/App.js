@@ -1,4 +1,3 @@
-import MovieList from './MovieList/MovieList'
 import Filter from './Filter/Filter';
 import './App.css';
 import Header from './Header/Header';

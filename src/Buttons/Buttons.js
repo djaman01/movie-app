@@ -9,6 +9,7 @@ export default function Buttons() {
 
   const [showDiv, setShowDiv] = useState(false);
 
+  //Ajout de 2 event handler differents: 1 pour quand on click sur add et 1 pour quand on click sur remove
   const handleAdd = () => setShowDiv(true);
 
   const handleRemove = () => setShowDiv(false);
