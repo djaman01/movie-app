@@ -1,4 +1,5 @@
 import './moviecard.css'
+import Button from '../Button/Button'
 
 export default function MovieCard({ title, year, cast, genres, thumbnail, thumbnail_width, thumbnail_height }) {
 
@@ -24,7 +25,7 @@ export default function MovieCard({ title, year, cast, genres, thumbnail, thumbn
         </div>
 
         <div className='Adding'>
-          <button> Add </button>
+          {<Button />}
         </div>
 
       </div>
