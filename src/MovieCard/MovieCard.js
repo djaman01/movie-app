@@ -3,6 +3,8 @@ import Buttons from '../Buttons/Buttons'
 
 export default function MovieCard({ title, year, cast, genres, thumbnail, thumbnail_width, thumbnail_height }) {
 
+  const alerting = () => alert(`you're clicking on ${title}`)
+
   return (
 
     <>
@@ -10,7 +12,7 @@ export default function MovieCard({ title, year, cast, genres, thumbnail, thumbn
       <div className="all-card">
 
         <div className="thumbnail">
-          <img src={thumbnail} alt={title} style={{ width: thumbnail_width, height: thumbnail_height }} />
+          <img onClick={alerting} src={thumbnail} alt={title} style={{ width: thumbnail_width, height: thumbnail_height }} />
         </div>
 
         <div className="description">

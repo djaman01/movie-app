@@ -24,7 +24,7 @@ export default function Buttons() {
 
 
       <div className="added-notice" style= {{color: "green", fontWeight: "bold"}}>
-        {(showDiv == true) && <span><FontAwesomeIcon icon={faCheck} /> Movie added to favorite</span>}
+        {(showDiv === true) && <span><FontAwesomeIcon icon={faCheck} /> Movie added to favorite</span>}
       </div>
 
     </>
