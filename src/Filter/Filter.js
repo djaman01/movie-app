@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 import { movies } from '../movies';
 import MovieCard from '../MovieCard/MovieCard';
 import './filter.css';
-
+import Header from '../Header/Header';
 
 export default function Filter() {
-
+<Header/>
   //Pour donner une valeur variable à l'input du search
   const [movie, setMovie] = useState('');
 
