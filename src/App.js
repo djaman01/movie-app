@@ -4,9 +4,10 @@ import Header from './Header/Header';
 import NewButton from './NewButton/NewButton';
 import NoPage from './NoPage/NoPage';
 import Home from './Home/Home';
-import Main from './AllPage/Main';
+import Main from './Main/Main';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Links from './Links/Links';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           {/* path="/" est obligé car c'est la page par défaut qui va s'ouvrir */}
           <Route path="/" element={<Home />} />
           <Route path="Movies" element={<Main />} />
+          <Route path='Links' element={<Links />}/>
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

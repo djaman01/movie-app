@@ -1,9 +1,10 @@
 import './moviecard.css'
 import Buttons from '../Buttons/Buttons'
+import { Link } from "react-router-dom";
+
 
 export default function MovieCard({ title, year, cast, genres, thumbnail, thumbnail_width, thumbnail_height }) {
 
-  const alerting = () => alert(`you're clicking on ${title}`)
 
   return (
 
@@ -12,7 +13,9 @@ export default function MovieCard({ title, year, cast, genres, thumbnail, thumbn
       <div className="all-card">
 
         <div className="thumbnail">
-          <img onClick={alerting} src={thumbnail} alt={title} style={{ width: thumbnail_width, height: thumbnail_height }} />
+          <Link to="/Links"> 
+            <img src={thumbnail} alt={title} style={{ width: thumbnail_width, height: thumbnail_height }} />
+          </Link>
         </div>
 
         <div className="description">
