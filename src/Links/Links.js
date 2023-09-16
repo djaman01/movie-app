@@ -1,8 +1,17 @@
+import { useParams } from "react-router-dom";
+
+import { movies } from "../movies";
 
 export default function Links() {
+  
+  const { param } = useParams();
+
+const movie = movies[param-1]
+
   return (
     <div>
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/O2NKzO-fxwQ?si=rl8TSy3tT2SEO8eW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <h1>{param}</h1>
+     <img src={movie.thumbnail}/>
     </div>
   )
 }

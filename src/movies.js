@@ -17,6 +17,7 @@ export const movies = [
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/The_Grudge_2020_Poster.jpeg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
+    "id": 1,
   },
 
   {
@@ -37,7 +38,8 @@ export const movies = [
     ],
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4a/Underwater_poster.jpeg",
     "thumbnail_width": 150,
-    "thumbnail_height": 250
+    "thumbnail_height": 250,
+    "id": 2,
   },
 
   {

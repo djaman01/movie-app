@@ -5,7 +5,6 @@ import './filter.css';
 import Header from '../Header/Header';
 
 export default function Filter() {
-<Header/>
   //Pour donner une valeur variable à l'input du search
   const [movie, setMovie] = useState('');
 
@@ -32,7 +31,7 @@ export default function Filter() {
 
 
   //Maintenant dans le return, on peut ajouter:
-  //1) Le input / 2) le onChange = {filteredMovie} qui est l'event handler qui va run la update method et change la state value 
+  //1) Le input /2) La value = {state variable} car elle peut changer en cas d'activation de l'event handler et 3) le onChange = {filteredMovie} qui est l'event handler qui va run la update method et change la state value 
   return (
     <div className='body'>
       {/* Comme on veut donner à l'input une value qui change, on va utiliser le hook useState */}

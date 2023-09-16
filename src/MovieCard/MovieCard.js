@@ -3,8 +3,8 @@ import Buttons from '../Buttons/Buttons'
 import { Link } from "react-router-dom";
 
 
-export default function MovieCard({ title, year, cast, genres, thumbnail, thumbnail_width, thumbnail_height }) {
 
+export default function MovieCard({ title, year, cast, genres, thumbnail, thumbnail_width, thumbnail_height, id}) {
 
   return (
 
@@ -13,7 +13,7 @@ export default function MovieCard({ title, year, cast, genres, thumbnail, thumbn
       <div className="all-card">
 
         <div className="thumbnail">
-          <Link to="/Links"> 
+          <Link to={`/Links/${id}`}> 
             <img src={thumbnail} alt={title} style={{ width: thumbnail_width, height: thumbnail_height }} />
           </Link>
         </div>
