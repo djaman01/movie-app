@@ -10,10 +10,7 @@ export const movies = [
       "Lin Shaye, ",
       "Jacki Weaver"
     ],
-    "genres": [
-      "Horror/",
-      "Supernatural"
-    ],
+    "genres": "Horror",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/The_Grudge_2020_Poster.jpeg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -33,11 +30,7 @@ export const movies = [
       "Mamoudou Athie, ",
       "T.J. Miller"
     ],
-    "genres": [
-      "Action/",
-      "Horror/",
-      "Science Fiction"
-    ],
+    "genres": "Action, Horror",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4a/Underwater_poster.jpeg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -57,9 +50,7 @@ export const movies = [
       "Jennifer Coolidge, ",
       "Billy Porter"
     ],
-    "genres": [
-      "Comedy"
-    ],
+    "genres": "Comedy",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9a/LikeaBossPoster.jpg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -77,9 +68,7 @@ export const movies = [
       "Walton Goggins, ",
       "Bradley Whitford"
     ],
-    "genres": [
-      "Drama"
-    ],
+    "genres": "Drama",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a1/Three_Christs_poster.jpg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -98,10 +87,7 @@ export const movies = [
       "Bruce Dern, ",
       "Owen Teague"
     ],
-    "genres": [
-      "Crime/",
-      "Drama"
-    ],
+    "genres": "Crime, Drama",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Inherit_the_Viper_%282019%29_Film_Poster.jpg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -119,10 +105,7 @@ export const movies = [
       "Rutger Hauer, ",
       "James Faulkner"
     ],
-    "genres": [
-      "Mystery/",
-      "Thriller"
-    ],
+    "genres": "Mystery, Thriller",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/13/The_Sonata_%282018%29_Film_Poster.jpg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -139,10 +122,7 @@ export const movies = [
       "Nick Stahl, ",
       "Taryn Manning"
     ],
-    "genres": [
-      "Crime/",
-      "Horror"
-    ],
+    "genres": "Crime, Horror",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/ed/The_Murder_of_Nicole_Brown_Simpson_poster.jpg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -165,10 +145,7 @@ export const movies = [
       "Nicky Jam, ",
       "Joe Pantoliano"
     ],
-    "genres": [
-      "Action/",
-      "Comedy"
-    ],
+    "genres": "Action, Comedy",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/90/Bad_Boys_for_Life_poster.jpg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -195,10 +172,7 @@ export const movies = [
       "Selena Gomez, ",
       "Marion Cotillard"
     ],
-    "genres": [
-      "Adventure/",
-      "Fantasy"
-    ],
+    "genres": "Adventure, Fantasy",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1f/Dolittle_%282020_film_poster%29.png",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -218,9 +192,7 @@ export const movies = [
       "Cicely Tyson, ",
       "Tyler Perry"
     ],
-    "genres": [
-      "Thriller"
-    ],
+    "genres": "Thriller",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4e/AFallFromGrace.png",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -242,10 +214,7 @@ export const movies = [
       "Colin Farrell, ",
       "Hugh Grant"
     ],
-    "genres": [
-      "Action/",
-      "Comedy"
-    ],
+    "genres": "Action, Comedy",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/06/The_Gentlemen_poster.jpg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -263,10 +232,7 @@ export const movies = [
       "Brooklynn Prince, ",
       "Joely Richardson"
     ],
-    "genres": [
-      "Horror/",
-      "Supernatural"
-    ],
+    "genres": "Horror, Supernatural",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Turning_poster_2020.jpg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -292,10 +258,7 @@ export const movies = [
       "John Savage, ",
       "Bradley Whitford"
     ],
-    "genres": [
-      "Drama/",
-      "War"
-    ],
+    "genres": "Drama, War",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9d/The_Last_Full_Measure_2019_poster.jpg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
@@ -315,10 +278,7 @@ export const movies = [
       "Tyler Alvarez, ",
       "Joseph Julian Soria"
     ],
-    "genres": [
-      "Drama/",
-      "Thriller"
-    ],
+    "genres": "Drama, Thriller",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b8/JohnHenryPoster.jpeg",
     "thumbnail_width": 150,
     "thumbnail_height": 250,
