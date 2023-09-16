@@ -3,7 +3,6 @@ import { movies } from '../movies';
 import MovieCard from '../MovieCard/MovieCard';
 import './filter.css';
 import HomeButton from '../HomeButton/HomeButton';
-import FilterGenre from '../FilterGenre/FilterGenre';
 
 
 export default function Filter() {
