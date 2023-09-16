@@ -1,7 +1,5 @@
-import Filter from './Filter/Filter';
+
 import './App.css';
-import Header from './Header/Header';
-import NewButton from './NewButton/NewButton';
 import NoPage from './NoPage/NoPage';
 import Home from './Home/Home';
 import Main from './Main/Main';

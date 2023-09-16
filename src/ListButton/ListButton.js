@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function NewButtons() {
+export default function ListButton() {
 
 
   return (

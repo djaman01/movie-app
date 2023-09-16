@@ -1,10 +1,10 @@
-import NewButtons from "../NewButton/NewButton"
+import ListButton from "../ListButton/ListButton"
 
 export default function NoPage() {
   return (
     <>
     <div>NoPage</div>
-    {<NewButtons/>}
+    {<ListButton/>}
     </>
   )
 }
