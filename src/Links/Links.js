@@ -4,6 +4,8 @@ import ListButton from "../ListButton/ListButton";
 
 import { movies } from "../movies";
 
+import './link.css'
+
 export default function Links() {
 
   //Ici on va utiliser le react Hook useParams afin d'accéder à la fin de l'url = parametre, que nous avons défini comme étant l'id de chaque objet
@@ -15,17 +17,25 @@ export default function Links() {
 
   //Ainsi, on pourra facilement accéder aux propriété de chaque objet et les utiliser
   return (
-    <>
+    <div className="all-trailer-page">
       <div>
-        <h1>{movie.title}</h1>
-        <h2>{movie.description}</h2>
+        <h1 className="movie-title">{movie.title}</h1>
+      </div>
+
+      <div>
+        <h2 className="movie-description">{movie.description}</h2>
+      </div>
+
+      <div className="trailer-div">
         <iframe width="560" height="315" src={movie.source} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      <div className="home-button">
-        <HomeButton />
-        <ListButton />
 
+      <div className="buttons">
+        <div className="home-button">
+          <HomeButton />
+        </div>
+        <ListButton />
       </div>
-    </>
+    </div>
   )
 }
