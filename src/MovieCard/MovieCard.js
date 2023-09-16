@@ -30,7 +30,7 @@ export default function MovieCard({ title, year, cast, genres, thumbnail, thumbn
         </div>
 
         <div>
-          {<Buttons />}
+          <Buttons />
         </div>
 
       </div>

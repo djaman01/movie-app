@@ -6,8 +6,7 @@ import Main from './Main/Main';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Links from './Links/Links';
-import Display from './Display';
-import Blog from './Blog';
+
 
 function App() {
 
@@ -18,10 +17,9 @@ function App() {
           {/* path="/" est obligé car c'est la page par défaut qui va s'ouvrir */}
           <Route path="/" element={<Home />} />
           <Route path="Movies" element={<Main />} />
-          <Route path="/Blog" element={<Blog />} />
           <Route path='Links/:param' element={<Links />}/>
           <Route path="*" element={<NoPage />} />
-          {/* <Route path="/display/:urlx" element={<Display />} /> */}
+        
 
         </Routes>
       </BrowserRouter>
