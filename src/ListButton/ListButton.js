@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './listButton.css'
 
 export default function ListButton() {
 
@@ -7,8 +8,8 @@ export default function ListButton() {
     <>
 
       <div div className="buttons-div">
-        <button> 
-          <Link to="/Movies"> Go to Movie List</Link>
+        <button className="list-button"> 
+          <Link to="/Movies" className="link-style"> Go to Movie List</Link>
         </button>
       </div>
 

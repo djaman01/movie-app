@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <img src="/Jaafar.jpg" alt="Photo Jaafar Bendahou" style={{ width: 300, height: 300, marginTop: 180 }} />
       <div>
-        {<ListButton />}
+        <ListButton />
       </div>
     </>
   )
