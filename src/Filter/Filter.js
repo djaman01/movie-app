@@ -9,11 +9,11 @@ export default function Filter() {
   //Pour donner une valeur variable à l'input du search
   const [movie, setMovie] = useState('');
 
-  // On crée l'event handler: function qui va etre activer quand un event sera déclenché; on cible la value de l'input e=event qui est onchange
+  // On crée l'event handler: function qui va etre activer quand un event sera déclenché, pour que la value de la state variable soit =à la value de l'inpu lorsque l'event sera déclenché
   const filteredMovie = (e) => setMovie(e.target.value);
 
   //.includes() peut-être utilisée sur des strings:
-  //On veut store dans une array, que les objets dont le titre contient le state movie (qui change de value en direct en fonction de la valeur de l'input).
+  //On veut store dans une array, que les objets dont le titre contient la value de la state 'movie' (qui change de value en direct en fonction de la valeur de l'input).
   //Comme c'est un state dès qu'on va écrire une lettre dans l'input, la value va changer (car onChange) et ca va run the .filter() method
   //On écrit hors du return, car on ne fait que store dans une variable, pour écrire les choses plus brievement dans le return
   const filterData = movies.filter((elm) => elm.title.toLowerCase().includes(movie.toLowerCase()));
