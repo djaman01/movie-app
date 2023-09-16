@@ -6,13 +6,14 @@ export default function ListButton() {
 
   return (
     <>
-
       <div className="buttons-div">
-        <button className="list-button"> 
-          <Link to="/Movies" className="link-style"> Go to Movie List</Link>
-        </button>
+        <Link to="/Movies" className="link-style">
+          <button className="list-button" > Movie List </button>
+        </Link>
       </div>
+
 
     </>
   );
 }
+

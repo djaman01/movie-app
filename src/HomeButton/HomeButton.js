@@ -9,14 +9,12 @@ export default function HomeButton() {
     <>
 
       <div className="buttons-div">
-        <button className="list-button"> 
-          <Link to="/" className="link-style"> Home </Link>
-        </button>
+        <Link to="/" className="link-style"> 
+          <button className="list-button" style={{backgroundColor: "grey"}}> Home </button>
+        </Link>
       </div>
 
     </>
    
   )
 }
-
-
