@@ -4,6 +4,7 @@ import MovieCard from '../MovieCard/MovieCard';
 import './filter.css';
 import HomeButton from '../HomeButton/HomeButton';
 
+
 export default function Filter() {
   //Pour donner une valeur variable à l'input du search
   const [movie, setMovie] = useState('');
