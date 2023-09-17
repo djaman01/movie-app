@@ -15,7 +15,7 @@ export default function FilterGenre() {
 
   return (
     <div>
-      <input value={genre} type="text" placeholder="Filter by genre" onChange={handleGenre} />
+      <input value={genre} type="text" placeholder="Filter by Genre" onChange={handleGenre} />
       <div className="grid-filter">
         {filteredGenre.map((e, i) => <MovieCard {...e} key={i} />)}
       </div>
