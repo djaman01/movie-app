@@ -28,12 +28,18 @@ export default function Filter() {
   //Et si je met le nom d'un ou plusieurs state, le nom de la page changerait dès qu'il y aurait un update de ces states
   useEffect(() => { document.title = "Jay Movie App" }, [])
 
-  //Le but maintenant est de faire apparaitre ces results:
-  //Pour cela: on map sur tous les elements de l'array stored dans .filterData(), comme on a l'habitude de faire
+//On va maintenant créer un bouton pour changer de filtre et passer d'un filtre par titre à un filtre par genre
+//On crée une state variable que quand on va cliquer sur le bouton, sa valeur va changer
+//Pour cela on donne d'abord une valeur, true, par défaut à la state variable
   const [toggle, setToggle] = useState(true);
 
+//Comme on veut créer 1 bouton que quand on clique et re-clique, ca change de filtre:
+//Pour que le bouton puisse Toggle entre filtre, on donne à la update methode l'inverse de la state variable value
+//Ainsi à chaque fois qu'on va cliquer, la valeur de la state variable va changer
   const handleToggle = () => setToggle(!toggle);
 
+    //Le but maintenant est de faire apparaitre ces results:
+  //Pour cela: on map sur tous les elements de l'array stored dans .filterData(), comme on a l'habitude de faire
   //Maintenant dans le return, on peut ajouter:
   //1) Le input /2) La value = {state variable} car elle peut changer en cas d'activation de l'event handler et 3) le onChange = {filteredMovie} qui est l'event handler qui va run la update method et change la state value 
   return (

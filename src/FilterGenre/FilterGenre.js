@@ -14,7 +14,7 @@ export default function FilterGenre() {
   const filteredGenre = movies.filter(element => element.genres.toLowerCase().includes(genre.toLowerCase()));
 
   return (
-    <div>
+    <div className='body'>
       <input value={genre} type="text" placeholder="Filter by Genre" onChange={handleGenre} />
       <div className="grid-filter">
         {filteredGenre.map((e, i) => <MovieCard {...e} key={i} />)}
