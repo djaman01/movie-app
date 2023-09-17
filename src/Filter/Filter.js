@@ -42,7 +42,7 @@ export default function Filter() {
         <HomeButton />
       </div>
 
-      <button onClick={handleToggle}>Change Filter</button>
+      <button className="toggle-button" onClick={handleToggle}>Change Filter</button>
 
       {(toggle) ?
         <div className='body'>
@@ -51,7 +51,7 @@ export default function Filter() {
           <div className="grid-filter">
             {filterData.map((e, i) => <MovieCard {...e} key={i} />)}
           </div>
-          
+
         </div> : <FilterGenre />}
 
 
