@@ -17,7 +17,7 @@ function App() {
           {/* path="/" est obligé car c'est la page par défaut qui va s'ouvrir */}
           <Route path="/" element={<Home />} />
           <Route path="Movies" element={<Main />} />
-          <Route path='Links/:param' element={<Links />}/>
+          <Route path='Links/:id' element={<Links />}/>
           <Route path="*" element={<NoPage />} />
         
 
